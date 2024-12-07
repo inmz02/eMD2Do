@@ -15,7 +15,7 @@ export const TitleBar = () => {
       </div>
 
       {/* Right side */}
-      <div className="flex gap-1 myIcons h-full">
+      <div className="flex gap-1 myIcons">
         <div className="border border-[#c5c5c5]">
           <FaRegWindowMinimize />
         </div>

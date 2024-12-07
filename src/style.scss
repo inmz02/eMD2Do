@@ -56,6 +56,36 @@ body {
           }
         }
       }
+
+      .mainScreen {
+        font-family: 'Courier New', Courier, monospace;
+
+        .myListContainer {
+          p {
+            @apply text-white cursor-pointer;
+          }
+
+          span {
+            @apply font-bold;
+            &.completed {
+              color: red;
+            }
+            &.notcompleted {
+              color: #1b1b1b;
+            }
+          }
+        }
+
+        .listInputBox {
+          @apply outline-none bg-[#1b1b1b]  border-2 border-[#1b1b1b] text-white text-sm rounded-md pl-1;
+
+          &:focus {
+            @apply border-[#777]
+          }
+        }
+      }
+
+      
     }
   }
 }
